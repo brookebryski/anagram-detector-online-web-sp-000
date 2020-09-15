@@ -8,7 +8,7 @@ class Anagram
    anagram_array = []
     end
 
-    def match(array)
+    def match
     word_array = @word.split(" ")
       if word_array == anagram_array
         puts true
