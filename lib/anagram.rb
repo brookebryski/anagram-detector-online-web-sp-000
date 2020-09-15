@@ -10,7 +10,7 @@ class Anagram
 
     def match
     word_array = @word.split(" ")
-      if word_array == anagram_array
+      if word_array.sort == anagram_array.sort
         puts true
         @word << anagram_array
       else
