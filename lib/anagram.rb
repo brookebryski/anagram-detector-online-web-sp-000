@@ -16,5 +16,5 @@ class Anagram
       else
         puts false
     end
-
+end
 end
